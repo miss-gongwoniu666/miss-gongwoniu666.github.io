@@ -13,7 +13,30 @@ git remote set-url origin <要修改的url>
 ```
 
 
-Mac 如何打开 tar.gz 文件    tar -xzvf xxx.tar.gz
+### Mac 命令行
+#### Mac打开tar.gz文件命令行
+```
+  tar -xzvf xxx.tar.gz
+```
+#### 删除某个文件
+```
+  rm -rf <文件名字>
+```
+#### 编辑文件
+```
+ vim .git/config
+```
 
-删除文件 ：rm -rf 文件名字
-编辑命令行文件 vim .git/config
+### 退出编辑
+```
+1、esc
+2、；
+3、wq
+```
+### 修改hosts文件
+```
+1，打开访达，设置文件展示所有扩展文件；
+2，长按左键finder，前往文件夹，输入/etc/
+3，查找hosts文件编辑
+4，命令行方式 vim /etc.hosts
+```
