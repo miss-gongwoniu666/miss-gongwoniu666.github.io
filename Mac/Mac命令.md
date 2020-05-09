@@ -40,3 +40,11 @@ git remote set-url origin <要修改的url>
 3，查找hosts文件编辑
 4，命令行方式 vim /etc.hosts
 ```
+### 修改访达文件，设置展示扩展文件
+![mac_1](../image/mac_1.png)
+
+### ios系统安装ipa文件
+```
+1、打开Xcode，选择windows-Devices and Simulators；
+2、点击+选择本地ipa文件，等待手机安装完成则可；
+```

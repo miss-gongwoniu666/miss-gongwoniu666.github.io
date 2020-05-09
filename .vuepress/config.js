@@ -20,6 +20,14 @@ module.exports = {
         sidebar: 'auto',
         sidebarDepth: 2,
         sidebar: [{
+                title: 'html5',
+                collapsable: false,
+                children: [
+                    '/html&css/css',
+
+                ]
+            },
+            {
                 title: '前端基础',
                 collapsable: false,
                 children: [
