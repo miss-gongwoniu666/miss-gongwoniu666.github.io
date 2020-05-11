@@ -33,18 +33,23 @@ git remote set-url origin <要修改的url>
 2、；
 3、wq
 ```
-### 修改hosts文件
-```
-1，打开访达，设置文件展示所有扩展文件；
-2，长按左键finder，前往文件夹，输入/etc/
-3，查找hosts文件编辑
-4，命令行方式 vim /etc.hosts
-```
-### 修改访达文件，设置展示扩展文件
-![mac_1](../image/mac_1.png)
 
-### ios系统安装ipa文件
+### github配置ssh密钥
+
+#### 1.检查电脑是否有 SSH key
 ```
-1、打开Xcode，选择windows-Devices and Simulators；
-2、点击+选择本地ipa文件，等待手机安装完成则可；
+cd ~/.ssh
 ```
+#### 2. 创建一个 SSH key
+```
+ssh-keygen -t rsa -C "email"
+```
+### 3. 添加ssh到github
+github打开setting设置，添加ssh即可
+```
+需要复制id_rsa.pub内容到github
+可以使用命令编辑功能 vim id_rsa.pub 
+复制完毕退出编辑即可（功能见上）
+```
+
+### 
