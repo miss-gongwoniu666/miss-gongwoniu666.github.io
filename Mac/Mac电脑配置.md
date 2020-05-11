@@ -31,3 +31,6 @@ https://jingyan.baidu.com/article/219f4bf73b5faa9f452d3871.html
 ### ps的安装和破解
 1、adoble官网下载photoshop，下载完毕双击下载的ps文件
 2、进入photoshop安装程序界面，
+
+
+### vscode
