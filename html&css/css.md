@@ -11,3 +11,11 @@ textarea::-webkit-input-placeholder {
 }
 
 ```
+
+### object-fit 设置元素在容器中展示
+属性值：fill，cover 。。。
+可用于图片设置展示方式 类似于background：contain，cover
+
+### object-position 设置元素在容器中展示起点位置
+类似于background-position
+

@@ -32,7 +32,8 @@ module.exports = {
                 collapsable: false,
                 children: [
                     '/javascript/数组去重',
-                    '/javascript/arrayBaseMethods'
+                    '/javascript/arrayBaseMethods',
+                    '/javascript/Promise',
 
                 ]
             },
@@ -41,7 +42,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     '/Mac/Mac命令',
-
+                    'Mac/Mac电脑配置'
                 ]
             },
             {
